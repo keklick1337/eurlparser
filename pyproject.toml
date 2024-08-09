@@ -1,0 +1,32 @@
+[project]
+name = "eurlparser"
+version = "0.0.1"
+description = "A powerful URL parser with detailed analysis."
+readme = "README.md"
+license = { text = "MIT" }
+authors = [
+    { name = "Vladislav Tislenko", email = "keklick1337@gmail.com" },
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.6",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+keywords = ["url", "parser", "url-parser", "enhanced-url-parser"]
+requires-python = ">=3.6"
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["check-manifest"]
+
+[project.urls]
+"Homepage" = "https://github.com/keklick1337/eurlparser"
+"Bug Tracker" = "https://github.com/keklick1337/eurlparser/issues"
