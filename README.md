@@ -70,7 +70,7 @@ print("Reconstructed URL:", reconstructed_url)
 ```
 
 ## Parsing and Handling IPv6 Addresses
-``python
+```python
 from eurlparser import EnhancedURLParser
 
 # Example URL with IPv6 address
