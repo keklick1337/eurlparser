@@ -1,6 +1,6 @@
 [project]
 name = "eurlparser"
-version = "0.0.1"
+version = "0.0.2"
 description = "A powerful URL parser with detailed analysis."
 readme = "README.md"
 license = { text = "MIT" }

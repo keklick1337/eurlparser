@@ -84,8 +84,9 @@ class EnhancedURLParser:
 
         # Extract host, port, and path
         url_splited = url.split('://', 1)[-1]
-        if '/' in url:
-            self.host, self.path = url_splited.split('@')[-1].split('/', 1)
+        if '/' in url_splited:
+            self.host, self.path = url_splited.split('/', 1)
+            self.host = self.host.split('@')[-1]
             self.path = '/' + self.path
         else:
             self.host = url_splited.split('@')[-1] # FIX: Invalid protocol
